@@ -1029,3 +1029,46 @@ textarea {
   height: 700px;
   object-fit: cover;
 }
+
+.collection__item__img img {
+  width: 732px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.collection__item .wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.classic__item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.page__banner img {
+  --tw-translate-y: 5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.recipe__card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.single .single__img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.header__nav {
+  display: flex;
+  gap: 2rem;
+}
